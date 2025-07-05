@@ -1,0 +1,120 @@
+html {
+  font-size: 14px;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page-wrapper {
+  height: 100%;
+  background-color: #151d20;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/fresh-pear-fall-water-splash-commercial-photography-dark-background-creative-fruit-concept-stylize-v-322975669.webp");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/fresh-pear-fall-water-splash-commercial-photography-dark-background-creative-fruit-concept-stylize-v-322975669.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-wrapper header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-wrapper header nav {
+  display: flex;
+}
+
+.page-wrapper header nav h1 {
+  font-family: "Pacifico", cursive;
+  color: rgb(236, 236, 236);
+}
+
+.page-wrapper header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.page-wrapper header nav ul li {
+  padding: 0 2rem;
+}
+
+.page-wrapper header nav ul li a {
+  font-weight: 500;
+  color: rgb(185, 184, 184);
+  text-decoration: none;
+}
+
+.page-wrapper section.hero {
+  padding: 6rem;
+}
+
+.page-wrapper section.hero h2 {
+  font-size: 3rem;
+  color: rgb(236, 236, 236);
+  font-weight: 400;
+}
+
+.page-wrapper section.hero h2 span {
+  font-size: 6rem;
+  color: #fce131;
+  font-weight: 800;
+}
+
+.page-wrapper section.hero p {
+  width: 400px;
+  color: rgb(185, 184, 184);
+}
+
+.page-wrapper section.hero button {
+  background-color: #fce131;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  border: 0;
+  margin-top: 2.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .page-wrapper header {
+    padding: 2rem;
+  }
+
+  .page-wrapper section.hero {
+    padding: 2rem;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
